@@ -1,0 +1,32 @@
+body{
+    background: #010;
+    color: #579;
+}
+
+
+#sidebar{
+    float: right;
+    width: 25%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(50%,1fr));
+}
+
+#sidebar img{
+    border: 5px solid darkgreen;
+    
+    
+  aspect-ratio: 1;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#sidebar img:hover{
+    border: 5px solid green;
+}
+
+#main{
+    width: 75%;
+    height: 100%;
+    object-fit: contain;
+}
